@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Cardiac Science Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">❤️ Cardiac Science</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="gallery-container">
+        <h1>📸 Research Gallery</h1>
+        <p style="text-align: center; margin-bottom: 2rem; color: #666;">Upload your research photos, diagrams, and findings here</p>
+        
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <div style="background: linear-gradient(135deg, #FF6B9D, #C44569); height: 250px; display: flex; align-items: center; justify-content: center;">
+                    <p style="color: white; font-size: 3rem;">📷</p>
+                </div>
+                <p>Your first image here</p>
+            </div>
+            
+            <div class="gallery-item">
+                <div style="background: linear-gradient(135deg, #C44569, #8B3A62); height: 250px; display: flex; align-items: center; justify-content: center;">
+                    <p style="color: white; font-size: 3rem;">📊</p>
+                </div>
+                <p>Charts and data</p>
+            </div>
+            
+            <div class="gallery-item">
+                <div style="background: linear-gradient(135deg, #FF1744, #D32F2F); height: 250px; display: flex; align-items: center; justify-content: center;">
+                    <p style="color: white; font-size: 3rem;">🔬</p>
+                </div>
+                <p>Research findings</p>
+            </div>
+        </div>
+        
+        <div style="background: white; padding: 2rem; margin-top: 3rem; border-radius: 10px; border-left: 5px solid #E91E63;">
+            <h2 style="color: #C44569;">How to Add Your Images</h2>
+            <ol style="margin-left: 2rem; line-height: 1.8;">
+                <li>Go to your GitHub repository</li>
+                <li>Click "Add file" → "Upload files"</li>
+                <li>Create an "images" folder (type "images/" as filename)</li>
+                <li>Upload your photos</li>
+                <li>Edit this file (gallery.html) and add:</li>
+            </ol>
+            <pre style="background: #f5f5f5; padding: 1rem; border-radius: 5px; overflow-x: auto;"><code>&lt;div class="gallery-item"&gt;
+    &lt;img src="images/your-image.jpg" alt="Description"&gt;
+    &lt;p&gt;Image title&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Cardiac Science Project | High School Research Initiative</p>
+        <p>Created with ❤️</p>
+    </footer>
+</body>
+</html>
